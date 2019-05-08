@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+    <display-name>myjstl</display-name>
+    <tlib-version>1.1</tlib-version>
+    <short-name>cid</short-name>
+    <uri>http://www.test.com/jstl/myfunction</uri>
+
+    <function>
+        <name>getCategoryId</name>
+        <function-class>com.test.web.function.MyFunction</function-class>
+        <function-signature>java.lang.String getCategoryId(java.lang.String)</function-signature>
+    </function>
+
+</taglib>
